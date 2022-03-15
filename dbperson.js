@@ -1,11 +1,10 @@
-import mongoose from 'mongoose';
+import mongoose from "mongoose";
 
 const cardschema = mongoose.Schema({
-    name:String,
-    email:String,
-    password:String,
-    phone:String,
+  name: String,
+  email: String,
+  password: String,
+  phone: String,
+});
 
-})
-
-export default mongoose.model('users',cardschema)
+export default mongoose.model("users", cardschema);
